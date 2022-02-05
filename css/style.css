@@ -9,6 +9,8 @@
     z-index: 99;
 }
 
+/*HEADER PROMOTING BANNER */
+
 .header-nav{
     width: 100%;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.08);
@@ -45,7 +47,8 @@
   
 .promo-new button{
      height: 35px;
-     background-color: aqua; 
+     background-color: rgba(0, 0, 0, 0.4);
+     color: #ffffff;
      font-size: 1rem;
      border: none;
      margin-left: 11px;
@@ -55,7 +58,7 @@
 }
 
 .promo-new button:hover{
-    color: #ffffff;
+ 
     background-color: rgba(0, 0, 0, 0.1);
     transition: all 0.5s;
     letter-spacing: 10px;
@@ -121,3 +124,5 @@
     margin-left: -90px;
     margin-top: -30px;
 }
+
+/*HEADER NAVIGATION */
