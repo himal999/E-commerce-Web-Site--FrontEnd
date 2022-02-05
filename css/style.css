@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&family=Poppins&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+    background-color: #ffffff;
+    z-index: 99;
+}
+
+.header-nav{
+    width: 100%;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.08);
+}
+.promo-banner{
+    height:60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-image: url('../assets/image/banner01.png');
+    background-size: cover;
+    align-items: center;
+    border:1PX solid rgba(0, 0, 0, 0.03)
+}
+
+.promo-banner h4{
+    background-image: url("../assets/image/banner01.png");
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #ffffff;
+}
+.promo-new{
+    display: flex;
+    background-image: url("../assets/image/banner01.png");
+    align-items: center;
+    margin-left:200px;
+}
+.promo-new h3{
+      font-size: 1.2rem;
+      font-style: italic;
+      padding: 0px 3px;
+}
+  
+.promo-new button{
+     height: 35px;
+     background-color: aqua; 
+     font-size: 1rem;
+     border: none;
+     margin-left: 11px;
+     padding: 0px 2px;
+     cursor: pointer;
+    
+}
+
+.promo-new button:hover{
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+    letter-spacing: 10px;
+}
+.promo-off{
+    background-color: royalblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 100px;
+}
+
+.promo-off span{
+    font-size: 1.3rem;
+    background-color: royalblue;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+}
+
+.promo-banner strong{
+    color:red;
+    background-color:#ffffff;
+    
+    
+    font-weight: bold;
+   
+
+}
+
+.promo-off button{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    border: none;
+    font-size: 2rem;
+    padding: 0px 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    text-transform: uppercase;
+  
+}
+.promo-off button:hover{
+    transition: all 0.5s;
+    color: yellow;
+}
+
+.promo-eff{
+
+    display: flex;
+
+}
+
+.prmo-eff-c1{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.prmo-eff-c2{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: -90px;
+    margin-top: -30px;
+}
