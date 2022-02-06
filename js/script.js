@@ -9,3 +9,18 @@ $('.bar-nav-cancel').click(function(){
     $(".bar-nav-cancel").css('display','none')
     $(".bar-nav").css("display","none")
 })
+
+/*SEARCH START*/
+$('#main-search').click(function(){
+    $('.header-search').css('display','block')
+    $('#main-search').css('display','none')
+})
+
+$('.fa-times').click(function(){
+   
+     $('.header-search').css('display','none')
+     $('#main-search').css('display','block')
+  
+})
+
+/*SEARCH END*/
