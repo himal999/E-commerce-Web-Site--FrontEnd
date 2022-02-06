@@ -314,7 +314,8 @@
     border-radius: 2rem;
     border: 1px solid rgba(0, 0, 0, 0.4);
     margin-left: 77.5vw;
-    margin-top: 1.5vw;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
     padding-left: 1rem;
     font-size: 1rem;
     background-color: #ffffff;
