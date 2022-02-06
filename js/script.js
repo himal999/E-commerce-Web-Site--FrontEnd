@@ -24,3 +24,12 @@ $('.fa-times').click(function(){
 })
 
 /*SEARCH END*/
+
+/*LOGIN START*/
+$('#account').click(function(){
+   
+    $('.form').css('display','flex')
+})
+
+
+/*LOGIN END*/
