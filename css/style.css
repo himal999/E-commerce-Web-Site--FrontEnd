@@ -339,6 +339,67 @@
 
 
 
+/* LOGIN AND SIGN UP START*/
+
+.form{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 1;
+    
+    
+}
+.sign-in{
+    width: 420px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.4);
+    padding: 30px 10px;
+
+}
+.sign-in>h3{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.sign-in>input{
+    width: 90%;
+    padding: 0px 10px;
+    margin: 10px 10px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1.5px solid rgba(0, 0, 0, 0.4);
+}
+
+.sign-in>button{
+    width: 90%;
+    margin-top: 20px;
+    height: auto;
+    font-size: 1.5rem;
+    background-color: #1e3799;
+    font-weight: 500;
+    padding: 7px 0px;
+    color: #ffffff;
+    border: none;
+    text-transform: lowercase;
+    cursor: pointer;
+}
+
+/* LOGIN AND SIGN UP END*/
+
+/*------------------------------------------------------------------*/
 
 /*PRMO AND HEADER RESPONSIVE*/
 
@@ -673,3 +734,5 @@
 
    /*-------------------------------------------------------------------*/
 
+
+   
