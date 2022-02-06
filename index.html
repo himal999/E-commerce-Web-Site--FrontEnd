@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   
     <link rel="stylesheet" href="css/style.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -34,21 +36,65 @@
         <!--HEADER PROMO BANNER END-->
   
        </div>
+       
      <!--HEADER NAVIGATION START-->
      <div class="navigation">
-         <ul>
-             <li><a href="#">Home</a></li>
-             <li><a href="#">Produucts</a></li>
-             <li><a href="#">Blog</a></li>
-             <li><a href="#">About</a></li>
-             <li><a href="#">Contact us</a></li>
-         </ul>
-         <h2><a href="#">LADIES HOUSE</a></h2>
-         <div></div>
+             
+                <div class="check-bar">
+                   <a href="#" id="check-bar-icon"><i class="fas fa-bars"></i></a>
+                   <label class="bar-nav-cancel"><i class="far fa-times-circle"></i></label>
+                </div>
+
+             <div class="main-nav"> 
+             <ul>
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">Products</a>
+                    <label class="new-pro">New</label>
+                </li>
+                <li  ><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+            </div>
+          
+        
+         <h2 class="navigation-logo"><a href="#">LADIES HOUSE</a></h2>
+         
+        
+         <div class="navigation-icon">
+             <a href="#"><i class="fas fa-search"></i></a>
+             <a href="#"><i class="far fa-user-circle"></i></a>
+             <a href="#">
+                 <i class="fas fa-shopping-cart"></i>
+                 <label class="shopping-cart-product">00</label>
+            </a>
+         </div>
      </div>
      <!--HEADER NAVIGATION END-->
     </nav>
+   <!--HEADER  END-->
+    <main>
+      <!--BAR NAV  START-->
+      <div class="bar-nav">
+      
+          <ul class="bar-nav-ul">
+              <li class="bar-nav-ul-li"><a class="bar-nav-ul-li-a" href="#">Home</a></li>
+              <li class="bar-nav-ul-li"><a  class="bar-nav-ul-li-a"href="#">Products</a></li>
+              <li class="bar-nav-ul-li"><a class="bar-nav-ul-li-a"href="#">Blog</a></li>
+              <li class="bar-nav-ul-li"><a class="bar-nav-ul-li-a"href="#">About</a></li>
+              <li class="bar-nav-ul-li"><a class="bar-nav-ul-li-a"href="#">Contact Us</a></li>
+          </ul>
+       
+          
+      </div>
+      <!--BAR NAV  END-->
+     
+      
+      </main>
 
-    <!--HEADER  END-->
+      <script src="./js/jQuery.min.js"></script>
+      <script src="./js/script.js"></script>
 </body>
 </html>

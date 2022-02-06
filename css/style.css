@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Ubuntu;
-    background-color: #ffffff;
+
     z-index: 99;
 }
 
@@ -13,10 +13,12 @@
 
 .header-nav{
     width: 100%;
-    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.2);
+    height: 120px;
+    
 }
 .promo-banner{
-    height:60px;
+    height:55px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -25,21 +27,22 @@
     align-items: center;
     border:1PX solid rgba(0, 0, 0, 0.03)
 }
-
-.promo-banner h4{
+ .promo-banner h4{ 
     background-image: url("../assets/image/banner01.png");
     font-size: 2rem;
     letter-spacing: 1px;
     font-weight: 800;
     color: #ffffff;
-}
+} 
 .promo-new{
+    position: relative;
     display: flex;
-    background-image: url("../assets/image/banner01.png");
+   
     align-items: center;
     margin-left:200px;
 }
 .promo-new h3{
+      background-color: #ffffff;
       font-size: 1.2rem;
       font-style: italic;
       padding: 0px 3px;
@@ -54,6 +57,7 @@
      margin-left: 11px;
      padding: 0px 2px;
      cursor: pointer;
+     border: 1px solid rgba(0, 0, 0, 0.4);
     
 }
 
@@ -64,6 +68,7 @@
     letter-spacing: 10px;
 }
 .promo-off{
+    position: relative;
     background-color: royalblue;
     align-items: center;
     justify-content: center;
@@ -89,6 +94,7 @@
 }
 
 .promo-off button{
+    
     background-color: rgba(0, 0, 0, 0.6);
     color: #ffffff;
     border: none;
@@ -110,19 +116,415 @@
 
 }
 
-.prmo-eff-c1{
-    background-color: rgba(0, 0, 0, 0.2);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-.prmo-eff-c2{
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-left: -90px;
-    margin-top: -30px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*HEADER NAVIGATION */
+
+.navigation{
+  
+  height: 65px;
+  display: flex;
+  align-items: center;
+  padding: 0px 35px;
+  justify-content:space-between;
+  
+
+}
+
+
+.navigation ul{
+    display: flex;
+    list-style: none;
+  
+   
+}
+.navigation li{
+    position: relative;
+    font-size: 18px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin: 0px 12px;
+    
+  
+}
+.navigation a{
+    height: 65px;
+    color: #555555;
+    text-decoration: none;
+    font-weight: bold
+
+}
+
+.navigation a:hover{
+    color: #0b9d8a;
+  
+}
+
+.navigation-logo{
+    position: relative;
+    margin-left: -10vw;
+ 
+}
+
+
+.navigation-icon a{
+  
+   position: relative;
+   margin: 0px 12px;
+   font-size: 1.2rem;
+   
+  
+}
+.navigation-icon :hover{
+    color: #0b9d8a;
+    transform: translateX(20deg);
+}
+
+.new-pro{
+    padding-left: 8px;
+    position: relative;
+    font-size: 0.7rem;
+    background-color: tomato;
+    color: #ffffff;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    top: -24px;
+    left: -15px;
+    font-weight: 400;
+}
+.new-pro:after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-bottom: 5px solid transparent;
+    border-left: 3px solid transparent;
+    border-top:7px solid tomato;
+    border-right: 5px solid transparent;
+    position: relative;
+    top:20px;
+    left: -33px;
+
+}
+
+.shopping-cart-product{
+    
+    align-items: center;
+    justify-content: center;
+    padding: 4px 3px;
+    background-color: turquoise;
+    position: relative;
+    top:-20px;
+    right: 13px;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 1rem;
+   
+}
+.check-bar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 60px;
+}
+
+
+
+.bar-nav{
+
+    height: auto;
+    width: 100%;
+    background-color: #353b48;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.bar-nav-ul{
+    padding-top: 15px;
+    padding-bottom: 25px;
+    list-style: none;
+  
+}
+
+.bar-nav-ul-li{
+    margin: 25px 0px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    line-height: 50px;
+ 
+}  
+
+.bar-nav-ul-li-a{
+    
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.bar-nav-cancel{
+    color: #555555;
+    
+}
+
+.bar-nav-ul-li-a:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #f5f6fa;
+}
+
+/* MEDIA NAVIGATION START*/
+.bar-nav{
+ display: none;
+}
+
+.check-bar,.bar-nav-cancel{
+    display: none;
+    font-size: 29px;
+}
+
+
+/* MEDIA NAVIGATION END*/
+
+
+
+
+/*PRMO AND HEADER RESPONSIVE*/
+
+/*1200px*/
+
+@media(max-width:1200px){
+
+    /*PROMOTING*/
+   
+       .promo-banner h4{ 
+         
+           font-size: 2rem;
+           font-weight: 400;
+          
+       } 
+   
+       .promo-new{
+           align-items: center;
+           margin-left:12px;
+       }
+   
+       .promo-new h3{
+          
+           font-size: 1.2rem;
+      
+           padding: 0px 2px;
+     }
+     .promo-new button{
+       height: 29px;
+   
+       font-size: 0.9rem;
+      
+       margin-left: 8px;
+       padding: 0px 4px;
+      
+     }
+     .promo-off{
+       align-items: center;
+       justify-content: center;
+       display: flex;
+       margin-right: 50px;
+    }
+     .promo-off span{
+       font-size: 1.3rem;
+       letter-spacing: 1.3px;
+    }
+    .promo-off button{
+       
+       font-size: 1.5rem;
+       padding: 0px 9px;
+       margin-left: 14px;
+    }
+    /*NAVIGATION*/
+   
+    .navigation{
+      padding: 0px 30px;
+    }
+   .check-bar{
+      display: block;
+   }
+   .main-nav{
+       display: none;
+   }
+   .navigation-logo{
+       position: relative;
+       margin-left: 10vw;
+    
+   }
+   
+   }
+
+
+
+/* 800px*/
+
+@media(max-width:989px){
+
+    /*PROMOTING*/
+   
+       .promo-banner h4{ 
+         
+           font-size: 2rem;
+           font-weight: 400;
+          
+       } 
+   
+       .promo-new{
+           align-items: center;
+           margin-left:12px;
+       }
+   
+       .promo-new h3{
+          
+           font-size: 1.2rem;
+      
+           padding: 0px 2px;
+     }
+     .promo-new button{
+       height: 29px;
+   
+       font-size: 0.9rem;
+      
+       margin-left: 8px;
+       padding: 0px 4px;
+      
+     }
+     .promo-off{
+       align-items: center;
+       justify-content: center;
+       display: flex;
+       margin-right: 50px;
+    }
+     .promo-off span{
+       font-size: 1.3rem;
+       letter-spacing: 1.3px;
+    }
+    .promo-off button{
+       
+       font-size: 1.3rem;
+       padding: 0px 5px;
+       margin-left: 14px;
+    }
+    /*NAVIGATION*/
+   
+    .navigation{
+      padding: 0px 30px;
+    }
+   .check-bar{
+      display: block;
+   }
+   .main-nav{
+       display: none;
+   }
+   .navigation-logo{
+       position: relative;
+       margin-left: 10vw;
+    
+   }
+   .promo-new button:hover{
+
+    letter-spacing: 3px;
+}
+   
+   }
+
+   /*600px*/
+
+
+
+@media(max-width:690px){
+
+    /*PROMOTING*/
+   
+       .promo-banner h4{ 
+         
+           font-size: 1rem;
+           font-weight: 400;
+          
+       } 
+   
+       .promo-new{
+           align-items: center;
+           margin-left:10px;
+       }
+   
+       .promo-new h3{
+          
+           font-size: 1rem;
+      
+           padding: 0px 2px;
+     }
+     .promo-new button{
+       height: 25px;
+   
+       font-size: 0.7rem;
+      
+       margin-left: 6px;
+       padding: 0px 2px;
+      
+     }
+     .promo-off{
+       align-items: center;
+       justify-content: center;
+       display: flex;
+       margin-right: 50px;
+    }
+     .promo-off span{
+       font-size: 1rem;
+       letter-spacing: 1px;
+    }
+    .promo-off button{
+       
+       font-size: 1rem;
+       padding: 0px 5px;
+       margin-left: 10px;
+    }
+    /*NAVIGATION*/
+   
+    .navigation{
+      padding: 0px 30px;
+    }
+   .check-bar{
+      display: block;
+   }
+   .main-nav{
+       display: none;
+   }
+   .navigation-logo{
+       position: relative;
+       margin-left: 10vw;
+    
+   }
+
+   .promo-new button:hover{
+
+    letter-spacing: 2px;
+}
+   
+   }
+
+
+
